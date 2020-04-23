@@ -35,7 +35,35 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="row about align-items-center">Test</div>
+      <div className="row projects d-flex justify-content-center">
+        <div className="card  w-75">
+          <div className="card-body">
+            <div className="proj-title">Project 1</div>
+            <img src="https://via.placeholder.com/300"></img>
+
+            <p className="proj-text">Description of project</p>
+            <div className="proj-tech"></div>
+          </div>
+        </div>
+        <div className="card  w-75">
+          <div className="card-body">
+            <div className="proj-title">Project 2</div>
+            <img src="https://via.placeholder.com/300"></img>
+
+            <p className="proj-text">Description of project</p>
+            <div className="proj-tech"></div>
+          </div>
+        </div>
+        <div className="card  w-75">
+          <div className="card-body">
+            <div className="proj-title">Project 3</div>
+            <img src="https://via.placeholder.com/300"></img>
+
+            <p className="proj-text">Description of project</p>
+            <div className="proj-tech"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
