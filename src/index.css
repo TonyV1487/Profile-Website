@@ -20,5 +20,9 @@ code {
   height: 90vh;
 }
 
-.projects {
+.proj-card {
+  margin: 1rem;
+}
+.contact {
+  padding: 1rem;
 }

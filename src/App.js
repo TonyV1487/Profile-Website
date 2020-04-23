@@ -36,7 +36,7 @@ function App() {
         </div>
       </div>
       <div className="row projects d-flex justify-content-center">
-        <div className="card  w-75">
+        <div className="card proj-card w-75">
           <div className="card-body">
             <div className="proj-title">Project 1</div>
             <img src="https://via.placeholder.com/300"></img>
@@ -45,7 +45,7 @@ function App() {
             <div className="proj-tech"></div>
           </div>
         </div>
-        <div className="card  w-75">
+        <div className="card proj-card w-75">
           <div className="card-body">
             <div className="proj-title">Project 2</div>
             <img src="https://via.placeholder.com/300"></img>
@@ -54,7 +54,7 @@ function App() {
             <div className="proj-tech"></div>
           </div>
         </div>
-        <div className="card  w-75">
+        <div className="card proj-card w-75">
           <div className="card-body">
             <div className="proj-title">Project 3</div>
             <img src="https://via.placeholder.com/300"></img>
@@ -62,6 +62,16 @@ function App() {
             <p className="proj-text">Description of project</p>
             <div className="proj-tech"></div>
           </div>
+        </div>
+      </div>
+      <div className="row contact">
+        <div className="contact-body">
+          <h5>Contact Me</h5>
+          <p>
+            Feel free to use the form below, or email me directly. I look
+            forward to speaking with you!
+          </p>
+          <form className="contact-form"></form>
         </div>
       </div>
     </div>
