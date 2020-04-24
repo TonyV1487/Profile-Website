@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Nav() {
   return (
-    <div className="nav d-flex flex-row justify-content-between navstyle">
+    <div className="row nav d-flex flex-row justify-content-between navstyle">
       <div>
-        <a className="navbar-brand" href="#">
+        <a className="nav-item navbar-brand pl-3" href="#">
           TV
         </a>
       </div>
@@ -23,15 +23,27 @@ function Nav() {
       <div className="d-flex flex-row">
         <div className="p-2">
           {" "}
-          <FontAwesomeIcon icon={["fab", "github-square"]} size="2x" />
+          <FontAwesomeIcon
+            className="nav-item"
+            icon={["fab", "github-square"]}
+            size="2x"
+          />
         </div>
         <div className="p-2">
           {" "}
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
+          <FontAwesomeIcon
+            className="nav-item"
+            icon={["fab", "linkedin"]}
+            size="2x"
+          />
         </div>
         <div className="p-2">
           {" "}
-          <FontAwesomeIcon icon="envelope-square" size="2x" />
+          <FontAwesomeIcon
+            className="nav-item"
+            icon="envelope-square"
+            size="2x"
+          />
         </div>
       </div>
     </div>

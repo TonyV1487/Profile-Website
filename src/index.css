@@ -13,11 +13,19 @@ code {
 }
 
 .navstyle {
-  height: 10vh;
+  /* height: 10vh; */
+  background-color: #263469;
+}
+.nav-item {
+  color: white;
 }
 
 .about {
-  height: 90vh;
+  height: 95vh;
+}
+.headshot-background {
+  background-color: #eabde1;
+  height: 95vh;
 }
 
 .proj-card {

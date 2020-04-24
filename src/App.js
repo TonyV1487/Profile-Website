@@ -4,6 +4,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import Nav from "./components/Nav";
+import Headshot from "./assets/headshot.JPEG";
 
 library.add(fab, faEnvelopeSquare);
 
@@ -12,9 +13,15 @@ function App() {
     <div className="container-fluid">
       <Nav />
       <div className="row about align-items-center">
-        <div className="col-5">
-          <div className="d-flex justify-content-center align-middle">
-            <img src="https://via.placeholder.com/300"></img>
+        <div className="col-5 headshot-background d-flex justify-content-center align-items-center">
+          <div>
+            <img
+              className="align-middle"
+              src={Headshot}
+              alt="Headshot"
+              height="450px"
+              width="450px"
+            ></img>
           </div>
         </div>
         <div className="col-7">
@@ -64,8 +71,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="row contact">
-        <div className="contact-body">
+      <div className="row contact d-flex justify-content-center">
+        <div className="contact-body d-flex justify-content-center">
           <h5>Contact Me</h5>
           <p>
             Feel free to use the form below, or email me directly. I look
