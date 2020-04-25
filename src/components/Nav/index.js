@@ -6,7 +6,7 @@ function Nav() {
     <div className="row nav d-flex flex-row justify-content-between navstyle">
       <div>
         <a className="nav-item navbar-brand pl-3" href="#">
-          TV
+          AV
         </a>
       </div>
       <div className="d-flex flex-row">
