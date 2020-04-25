@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/Profile-Website/static/css/main.400313d6.chunk.css",
-    "main.js": "/Profile-Website/static/js/main.f97d3bc2.chunk.js",
-    "main.js.map": "/Profile-Website/static/js/main.f97d3bc2.chunk.js.map",
+    "main.css": "/Profile-Website/static/css/main.30472dd1.chunk.css",
+    "main.js": "/Profile-Website/static/js/main.b4f998a2.chunk.js",
+    "main.js.map": "/Profile-Website/static/js/main.b4f998a2.chunk.js.map",
     "runtime-main.js": "/Profile-Website/static/js/runtime-main.c6ca9cd5.js",
     "runtime-main.js.map": "/Profile-Website/static/js/runtime-main.c6ca9cd5.js.map",
-    "static/js/2.de06bf3a.chunk.js": "/Profile-Website/static/js/2.de06bf3a.chunk.js",
-    "static/js/2.de06bf3a.chunk.js.map": "/Profile-Website/static/js/2.de06bf3a.chunk.js.map",
+    "static/js/2.b8ecadb8.chunk.js": "/Profile-Website/static/js/2.b8ecadb8.chunk.js",
+    "static/js/2.b8ecadb8.chunk.js.map": "/Profile-Website/static/js/2.b8ecadb8.chunk.js.map",
     "index.html": "/Profile-Website/index.html",
-    "precache-manifest.7e2e549db40ed0c154d0494d6b8d5a63.js": "/Profile-Website/precache-manifest.7e2e549db40ed0c154d0494d6b8d5a63.js",
+    "precache-manifest.102a4c22b290d8a6f9fc7db91b739755.js": "/Profile-Website/precache-manifest.102a4c22b290d8a6f9fc7db91b739755.js",
     "service-worker.js": "/Profile-Website/service-worker.js",
-    "static/css/main.400313d6.chunk.css.map": "/Profile-Website/static/css/main.400313d6.chunk.css.map",
-    "static/js/2.de06bf3a.chunk.js.LICENSE.txt": "/Profile-Website/static/js/2.de06bf3a.chunk.js.LICENSE.txt",
-    "static/media/headshot.JPEG": "/Profile-Website/static/media/headshot.dc14333b.JPEG"
+    "static/css/main.30472dd1.chunk.css.map": "/Profile-Website/static/css/main.30472dd1.chunk.css.map",
+    "static/js/2.b8ecadb8.chunk.js.LICENSE.txt": "/Profile-Website/static/js/2.b8ecadb8.chunk.js.LICENSE.txt",
+    "static/media/Agenda.jpg": "/Profile-Website/static/media/Agenda.bda7c33a.jpg",
+    "static/media/Headshot2.jpg": "/Profile-Website/static/media/Headshot2.3163b349.jpg",
+    "static/media/Meeting.jpg": "/Profile-Website/static/media/Meeting.ed1c163f.jpg",
+    "static/media/User.jpg": "/Profile-Website/static/media/User.c5e3ba7c.jpg",
+    "static/media/Vote.jpg": "/Profile-Website/static/media/Vote.7895588d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6ca9cd5.js",
-    "static/js/2.de06bf3a.chunk.js",
-    "static/css/main.400313d6.chunk.css",
-    "static/js/main.f97d3bc2.chunk.js"
+    "static/js/2.b8ecadb8.chunk.js",
+    "static/css/main.30472dd1.chunk.css",
+    "static/js/main.b4f998a2.chunk.js"
   ]
 }
