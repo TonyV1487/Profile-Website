@@ -21,30 +21,36 @@ function Nav() {
         </a>
       </div>
       <div className="d-flex flex-row">
-        <div className="p-2">
-          {" "}
-          <FontAwesomeIcon
-            className="nav-item"
-            icon={["fab", "github-square"]}
-            size="2x"
-          />
-        </div>
-        <div className="p-2">
-          {" "}
-          <FontAwesomeIcon
-            className="nav-item"
-            icon={["fab", "linkedin"]}
-            size="2x"
-          />
-        </div>
-        <div className="p-2">
-          {" "}
-          <FontAwesomeIcon
-            className="nav-item"
-            icon="envelope-square"
-            size="2x"
-          />
-        </div>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/TonyV1487"
+        >
+          <div className="p-2">
+            {" "}
+            <FontAwesomeIcon icon={["fab", "github-square"]} size="2x" />
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/anthonyvester/"
+        >
+          <div className="p-2">
+            {" "}
+            <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
+          </div>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="mailto:tvester1487@gmail.com"
+        >
+          <div className="p-2">
+            {" "}
+            <FontAwesomeIcon icon="envelope-square" size="2x" />
+          </div>
+        </a>
       </div>
     </div>
   );

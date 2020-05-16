@@ -13,6 +13,13 @@ code {
     monospace;
 }
 
+a {
+  color: white;
+}
+a:hover {
+  color: #f2a365;
+}
+
 .about {
   height: 95vh;
 }
@@ -44,9 +51,6 @@ code {
 .navstyle {
   /* height: 10vh; */
   background-color: #222831;
-}
-.nav-item {
-  color: white;
 }
 
 .proj-card {

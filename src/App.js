@@ -258,30 +258,48 @@ function App() {
             </h6>
           </div>
           <div className="d-flex flex-row justify-content-around">
-            <div className="p-2">
-              {" "}
-              <FontAwesomeIcon
-                className="contact-item"
-                icon={["fab", "github-square"]}
-                size="4x"
-              />
-            </div>
-            <div className="p-2">
-              {" "}
-              <FontAwesomeIcon
-                className="contact-item"
-                icon={["fab", "linkedin"]}
-                size="4x"
-              />
-            </div>
-            <div className="p-2">
-              {" "}
-              <FontAwesomeIcon
-                className="contact-item"
-                icon="envelope-square"
-                size="4x"
-              />
-            </div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/TonyV1487"
+            >
+              <div className="p-2">
+                {" "}
+                <FontAwesomeIcon
+                  className="contact-item"
+                  icon={["fab", "github-square"]}
+                  size="4x"
+                />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/anthonyvester/"
+            >
+              <div className="p-2">
+                {" "}
+                <FontAwesomeIcon
+                  className="contact-item"
+                  icon={["fab", "linkedin"]}
+                  size="4x"
+                />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:tvester1487@gmail.com"
+            >
+              <div className="p-2">
+                {" "}
+                <FontAwesomeIcon
+                  className="contact-item"
+                  icon="envelope-square"
+                  size="4x"
+                />
+              </div>
+            </a>
           </div>
           <form className="contact-form"></form>
         </div>
