@@ -23,6 +23,11 @@ import nodejsLogo from "./assets/logos/NodeJS.png";
 import passportLogo from "./assets/logos/Passport.png";
 import tailwindLogo from "./assets/logos/Tailwind.png";
 import tinyMCELogo from "./assets/logos/tinyMCE.png";
+import dotenv from "./assets/logos/dotenv.png";
+import eslint from "./assets/logos/eslint.png";
+import handlebars from "./assets/logos/handlebars.png";
+import mysql from "./assets/logos/MySQL.png";
+import sequelize from "./assets/logos/sequelize.png";
 
 // SoVest assets
 import sovest from "./assets/SoVest/SoVest.png";
@@ -132,7 +137,12 @@ function App() {
                 alt="Javascript"
                 className="proj-tech-logo"
               ></img>
-              <img src={ReactLogo} alt="React" className="proj-tech-logo"></img>
+              <img
+                src={handlebars}
+                alt="Handlebars"
+                className="proj-tech-logo"
+              ></img>
+
               <img
                 src={nodejsLogo}
                 alt="NodeJS"
@@ -140,7 +150,7 @@ function App() {
               ></img>
               <img
                 src={ExpJSLogo}
-                alt="ExpressJS"
+                alt="Express"
                 className="proj-tech-logo"
               ></img>
               <img
@@ -148,33 +158,14 @@ function App() {
                 alt="GitHub"
                 className="proj-tech-logo"
               ></img>
-
+              <img src={mysql} alt="MySQL" className="proj-tech-logo"></img>
               <img
-                src={mongoDBLogo}
-                alt="MongoDB"
+                src={sequelize}
+                alt="Sequelize"
                 className="proj-tech-logo"
               ></img>
-              <img
-                src={mongooseLogo}
-                alt="Mongoose"
-                className="proj-tech-logo"
-              ></img>
-
-              <img
-                src={passportLogo}
-                alt="Passport"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={tailwindLogo}
-                alt="Tailwind"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={tinyMCELogo}
-                alt="tinyMCE"
-                className="proj-tech-logo"
-              ></img>
+              <img src={eslint} alt="es lint" className="proj-tech-logo"></img>
+              <img src={dotenv} alt=".ENV" className="proj-tech-logo"></img>
             </div>
 
             <p className="proj-text">Description of project</p>
