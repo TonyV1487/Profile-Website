@@ -10,6 +10,19 @@ import Meeting from "./assets/BAE/Meeting.jpg";
 import Agenda from "./assets/BAE/Agenda.jpg";
 import Vote from "./assets/BAE/Vote.jpg";
 import User from "./assets/BAE/User.jpg";
+// import JSlogo from "./assets/";
+import ReactLogo from "./assets/logos/React_txt.png";
+import CSSLogo from "./assets/logos/CSS.png";
+import ExpJSLogo from "./assets/logos/expressJS.png";
+import GitHubLogo from "./assets/logos/GitHub.png";
+import htmlLogo from "./assets/logos/HTML.png";
+import jsLogo from "./assets/logos/JS.png";
+import mongoDBLogo from "./assets/logos/MongoDB.png";
+import mongooseLogo from "./assets/logos/Mongoose.png";
+import nodejsLogo from "./assets/logos/NodeJS.png";
+import passportLogo from "./assets/logos/Passport.png";
+import tailwindLogo from "./assets/logos/Tailwind.png";
+import tinyMCELogo from "./assets/logos/tinyMCE.png";
 
 library.add(fab, faEnvelopeSquare);
 
@@ -23,70 +36,61 @@ function App() {
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">BAE</div>
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="0"
-                  class="active"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="2"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="3"
-                ></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src={Meeting} class="d-block w-100" alt="..."></img>
-                </div>
-                <div class="carousel-item">
-                  <img src={Agenda} class="d-block w-100" alt="..."></img>
-                </div>
-                <div class="carousel-item">
-                  <img src={Vote} class="d-block w-100" alt="..."></img>
-                </div>
-                <div class="carousel-item">
-                  <img src={User} class="d-block w-100" alt="..."></img>
-                </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
+            <div className="d-flex justify-content-center">
+              <img src={Meeting} alt="Meeting" className="w-50"></img>
             </div>
+            <div className="tech d-flex justify-content-around">
+              <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
+              <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
+              <img
+                src={jsLogo}
+                alt="Javascript"
+                className="proj-tech-logo"
+              ></img>
+              <img src={ReactLogo} alt="React" className="proj-tech-logo"></img>
+              <img
+                src={nodejsLogo}
+                alt="NodeJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={ExpJSLogo}
+                alt="ExpressJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={GitHubLogo}
+                alt="GitHub"
+                className="proj-tech-logo"
+              ></img>
 
+              <img
+                src={mongoDBLogo}
+                alt="MongoDB"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={mongooseLogo}
+                alt="Mongoose"
+                className="proj-tech-logo"
+              ></img>
+
+              <img
+                src={passportLogo}
+                alt="Passport"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tailwindLogo}
+                alt="Tailwind"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tinyMCELogo}
+                alt="tinyMCE"
+                className="proj-tech-logo"
+              ></img>
+            </div>
             <p className="proj-text">Description of project</p>
             <div className="proj-tech"></div>
           </div>

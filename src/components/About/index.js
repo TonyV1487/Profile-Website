@@ -19,21 +19,22 @@ function About() {
         <div className="card about-card shadow">
           <div className="card-body">
             <h2>Anthony Vester</h2>
-            <h6>Full Stack Web Developer</h6>
-            <div>
-              Full Stack Web Developer with a background in marketing and
-              eCommerce sales. Recently earned a certificate in Full Stack
-              Development from NorthWestern University with a focus on
-              developing skills in JavaScript, CSS, React.js, Node.js, MongDB,
-              and responsive web design. I strive to maintain a high work ethic,
-              positive attitude, and provide the most value in any relationship.
-              With each new opportunity, my willingness to evolve and grow has
-              allowed me to advance in my career. With these principles and my
-              love for problem solving, I hope to work with talented individuals
-              who are hungry to develop technologies that better the lives of
-              our customers and peers. I’m also lucky to have had fantastic
-              mentors along the way and I look forward to being a resource to
-              others in my field as I progress through my career.
+
+            <div className="pl-4">
+              <a className="font-bold">Full Stack Web Developer</a> with a
+              background in marketing and eCommerce sales. Recently earned a
+              certificate in Full Stack Web Development from Northwestern
+              University with a focus on developing skills in JavaScript, CSS,
+              React.js, Node.js, MongDB, and responsive web design. I strive to
+              maintain a high work ethic, positive attitude, and provide the
+              most value in any relationship. With each new opportunity, my
+              willingness to evolve and grow has allowed me to advance in my
+              career. With these principles and my love for problem solving, I
+              hope to work with talented individuals who are hungry to develop
+              technologies that better the lives of our customers and peers. I’m
+              also lucky to have had fantastic mentors along the way and I look
+              forward to being a resource to others in my field as I progress
+              through my career.
             </div>
           </div>
         </div>

@@ -34,6 +34,10 @@ code {
   height: 100%;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .proj-card {
   margin: 1rem;
 }
@@ -45,4 +49,8 @@ code {
 .footer {
   height: 5vh;
   background-color: #222831;
+}
+.proj-tech-logo {
+  padding: 1px;
+  height: 5vh;
 }
