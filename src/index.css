@@ -13,14 +13,6 @@ code {
     monospace;
 }
 
-.navstyle {
-  /* height: 10vh; */
-  background-color: #222831;
-}
-.nav-item {
-  color: white;
-}
-
 .about {
   height: 95vh;
 }
@@ -29,28 +21,45 @@ code {
   width: 50rem;
 }
 
-.headshot-background {
-  background-color: #f2a365;
-  height: 100%;
+.contact {
+  padding: 1rem;
+  color: white;
+  background-color: #30475e;
+}
+
+.footer {
+  height: 5vh;
+  background-color: #222831;
 }
 
 .font-bold {
   font-weight: bold;
 }
 
+.headshot-background {
+  background-color: #f2a365;
+  height: 100%;
+}
+
+.navstyle {
+  /* height: 10vh; */
+  background-color: #222831;
+}
+.nav-item {
+  color: white;
+}
+
 .proj-card {
   margin: 1rem;
 }
-.contact {
-  padding: 1rem;
-  color: white;
-  background-color: #30475e;
-}
-.footer {
-  height: 5vh;
-  background-color: #222831;
-}
+
 .proj-tech-logo {
   padding: 1px;
   height: 5vh;
+}
+
+.proj-title {
+  color: #30475e;
+  font-weight: bold;
+  font-size: 4vh;
 }

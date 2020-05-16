@@ -6,11 +6,11 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Nav from "./components/Nav";
 import About from "./components/About";
+
+// BAE assets
 import Meeting from "./assets/BAE/Meeting.jpg";
-import Agenda from "./assets/BAE/Agenda.jpg";
-import Vote from "./assets/BAE/Vote.jpg";
-import User from "./assets/BAE/User.jpg";
-// import JSlogo from "./assets/";
+
+// Logo assets
 import ReactLogo from "./assets/logos/React_txt.png";
 import CSSLogo from "./assets/logos/CSS.png";
 import ExpJSLogo from "./assets/logos/expressJS.png";
@@ -23,6 +23,9 @@ import nodejsLogo from "./assets/logos/NodeJS.png";
 import passportLogo from "./assets/logos/Passport.png";
 import tailwindLogo from "./assets/logos/Tailwind.png";
 import tinyMCELogo from "./assets/logos/tinyMCE.png";
+
+// SoVest assets
+import sovest from "./assets/SoVest/SoVest.png";
 
 library.add(fab, faEnvelopeSquare);
 
@@ -39,7 +42,7 @@ function App() {
             <div className="d-flex justify-content-center">
               <img src={Meeting} alt="Meeting" className="w-50"></img>
             </div>
-            <div className="tech d-flex justify-content-around">
+            <div className="tech d-flex justify-content-around py-2">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -92,22 +95,168 @@ function App() {
               ></img>
             </div>
             <p className="proj-text">Description of project</p>
-            <div className="proj-tech"></div>
+            <div className="d-flex proj-links justify-content-around">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Could-this-have-been-an-email/bae.meet.ai"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Repo
+                </button>
+              </a>
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://mern-bae.herokuapp.com/"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Live
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">SoVest</div>
-            <img src="https://via.placeholder.com/300"></img>
+            <div className="d-flex justify-content-center">
+              <img src={sovest} className="w-50"></img>
+            </div>
+            <div className="tech d-flex justify-content-around py-2">
+              <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
+              <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
+              <img
+                src={jsLogo}
+                alt="Javascript"
+                className="proj-tech-logo"
+              ></img>
+              <img src={ReactLogo} alt="React" className="proj-tech-logo"></img>
+              <img
+                src={nodejsLogo}
+                alt="NodeJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={ExpJSLogo}
+                alt="ExpressJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={GitHubLogo}
+                alt="GitHub"
+                className="proj-tech-logo"
+              ></img>
+
+              <img
+                src={mongoDBLogo}
+                alt="MongoDB"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={mongooseLogo}
+                alt="Mongoose"
+                className="proj-tech-logo"
+              ></img>
+
+              <img
+                src={passportLogo}
+                alt="Passport"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tailwindLogo}
+                alt="Tailwind"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tinyMCELogo}
+                alt="tinyMCE"
+                className="proj-tech-logo"
+              ></img>
+            </div>
 
             <p className="proj-text">Description of project</p>
-            <div className="proj-tech"></div>
+            <div className="d-flex proj-links justify-content-around">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/iedson/sovest"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Repo
+                </button>
+              </a>
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://sovest.herokuapp.com/"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Live
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">Cocktail Creator</div>
             <img src="https://via.placeholder.com/300"></img>
+            <div className="tech d-flex justify-content-around py-2">
+              <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
+              <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
+              <img
+                src={jsLogo}
+                alt="Javascript"
+                className="proj-tech-logo"
+              ></img>
+              <img src={ReactLogo} alt="React" className="proj-tech-logo"></img>
+              <img
+                src={nodejsLogo}
+                alt="NodeJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={ExpJSLogo}
+                alt="ExpressJS"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={GitHubLogo}
+                alt="GitHub"
+                className="proj-tech-logo"
+              ></img>
+
+              <img
+                src={mongoDBLogo}
+                alt="MongoDB"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={mongooseLogo}
+                alt="Mongoose"
+                className="proj-tech-logo"
+              ></img>
+
+              <img
+                src={passportLogo}
+                alt="Passport"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tailwindLogo}
+                alt="Tailwind"
+                className="proj-tech-logo"
+              ></img>
+              <img
+                src={tinyMCELogo}
+                alt="tinyMCE"
+                className="proj-tech-logo"
+              ></img>
+            </div>
 
             <p className="proj-text">Description of project</p>
             <div className="proj-tech"></div>
