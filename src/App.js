@@ -28,9 +28,14 @@ import eslint from "./assets/logos/eslint.png";
 import handlebars from "./assets/logos/handlebars.png";
 import mysql from "./assets/logos/MySQL.png";
 import sequelize from "./assets/logos/sequelize.png";
+import jquery from "./assets/logos/jquery.png";
+import ajax from "./assets/logos/ajax.png";
 
 // SoVest assets
 import sovest from "./assets/SoVest/SoVest.png";
+
+// Cocktail Creator assets
+import cocktailcreator from "./assets/CocktaiCreator/cocktailcreator.jpg";
 
 library.add(fab, faEnvelopeSquare);
 
@@ -195,7 +200,9 @@ function App() {
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">Cocktail Creator</div>
-            <img src="https://via.placeholder.com/300"></img>
+            <div className="d-flex justify-content-center">
+              <img src={cocktailcreator}></img>
+            </div>
             <div className="tech d-flex justify-content-around py-2">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
@@ -204,53 +211,38 @@ function App() {
                 alt="Javascript"
                 className="proj-tech-logo"
               ></img>
-              <img src={ReactLogo} alt="React" className="proj-tech-logo"></img>
-              <img
-                src={nodejsLogo}
-                alt="NodeJS"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={ExpJSLogo}
-                alt="ExpressJS"
-                className="proj-tech-logo"
-              ></img>
+              <img src={jquery} alt="jQuery" className="proj-tech-logo"></img>
+              <img src={ajax} alt="AJAX" className="proj-tech-logo"></img>
+
               <img
                 src={GitHubLogo}
                 alt="GitHub"
                 className="proj-tech-logo"
               ></img>
-
-              <img
-                src={mongoDBLogo}
-                alt="MongoDB"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={mongooseLogo}
-                alt="Mongoose"
-                className="proj-tech-logo"
-              ></img>
-
-              <img
-                src={passportLogo}
-                alt="Passport"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={tailwindLogo}
-                alt="Tailwind"
-                className="proj-tech-logo"
-              ></img>
-              <img
-                src={tinyMCELogo}
-                alt="tinyMCE"
-                className="proj-tech-logo"
-              ></img>
             </div>
 
             <p className="proj-text">Description of project</p>
-            <div className="proj-tech"></div>
+            <div className="d-flex proj-links justify-content-around">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/TonyV1487/Cocktail-Creator"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Repo
+                </button>
+              </a>
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://tonyv1487.github.io/Cocktail-Creator/"
+              >
+                <button type="button" className="btn btn-secondary">
+                  Live
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
