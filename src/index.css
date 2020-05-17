@@ -28,6 +28,10 @@ a:hover {
   width: 50rem;
 }
 
+.about-text {
+  font-size: 1.2rem;
+}
+
 .contact {
   padding: 1rem;
   color: white;
@@ -60,6 +64,14 @@ a:hover {
 .proj-tech-logo {
   padding: 1px;
   height: 5vh;
+}
+
+.proj-text {
+  width: 75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  /* font-weight: 400; */
+  color: #30475e;
 }
 
 .proj-title {

@@ -45,14 +45,27 @@ function App() {
       <Nav />
       <About />
 
-      <div className="row projects d-flex justify-content-center">
+      <div className="row projects d-flex justify-content-center" id="projects">
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">BAE</div>
-            <div className="d-flex justify-content-center">
-              <img src={Meeting} alt="Meeting" className="w-50"></img>
+            <div className="d-flex justify-content-center border-bottom">
+              <img src={Meeting} alt="Meeting" className="w-50 py-4"></img>
             </div>
-            <div className="tech d-flex justify-content-around py-2">
+            <div className="d-flex justify-content-center">
+              <p className="proj-text text-center pt-2 ">
+                A meeting management app that provides users the ability to vote
+                on agenda items, setting priority prior to the meeting. Those
+                items with negative scores move to the Be An Email section and
+                are covered outside the meeting.
+              </p>
+            </div>
+            <div className="d-flex justify-content-center border-bottom">
+              <p className="proj-text text-center pt-2 ">
+                Login - testuser@gmail<br></br>Password - user123
+              </p>
+            </div>
+            <div className="tech d-flex justify-content-around py-4 border-bottom">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -104,8 +117,8 @@ function App() {
                 className="proj-tech-logo"
               ></img>
             </div>
-            <p className="proj-text">Description of project</p>
-            <div className="d-flex proj-links justify-content-around">
+
+            <div className="d-flex proj-links justify-content-around py-4">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -131,10 +144,16 @@ function App() {
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">SoVest</div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center border-bottom py-4">
               <img src={sovest} className="w-50"></img>
             </div>
-            <div className="tech d-flex justify-content-around py-2">
+            <div className="d-flex justify-content-center border-bottom py-4">
+              <p className="proj-text text-center pt-2">
+                An app that tracks the influence of social media influencers on
+                stock market valuations
+              </p>
+            </div>
+            <div className="tech d-flex justify-content-around py-2 border-bottom py-4">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -173,8 +192,7 @@ function App() {
               <img src={dotenv} alt=".ENV" className="proj-tech-logo"></img>
             </div>
 
-            <p className="proj-text">Description of project</p>
-            <div className="d-flex proj-links justify-content-around">
+            <div className="d-flex proj-links justify-content-around py-4">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -200,10 +218,17 @@ function App() {
         <div className="card proj-card w-75 shadow">
           <div className="card-body">
             <div className="proj-title">Cocktail Creator</div>
-            <div className="d-flex justify-content-center">
-              <img src={cocktailcreator}></img>
+            <div className="d-flex justify-content-center border-bottom py-4">
+              <img src={cocktailcreator} className="w-50"></img>
             </div>
-            <div className="tech d-flex justify-content-around py-2">
+            <div className="d-flex justify-content-center border-bottom py-4">
+              <p className="proj-text">
+                A website that allows the user to select a liquor or ingredient
+                they have and list all of the drinks they can make with
+                available ingredients
+              </p>
+            </div>
+            <div className="tech d-flex justify-content-around py-2 border-bottom py-4">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -221,8 +246,7 @@ function App() {
               ></img>
             </div>
 
-            <p className="proj-text">Description of project</p>
-            <div className="d-flex proj-links justify-content-around">
+            <div className="d-flex proj-links justify-content-around py-4">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -246,7 +270,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="row contact d-flex justify-content-center">
+      <div className="row contact d-flex justify-content-center" id="contact">
         <div className="contact-body d-flex flex-column justify-content-center">
           <div className="d-flex justify-content-center">
             <h2>Contact Me</h2>
@@ -304,7 +328,9 @@ function App() {
           <form className="contact-form"></form>
         </div>
       </div>
-      <div className="row footer"></div>
+      <div className="d-flex justify-content-center align-items-center row footer">
+        <a href="#nav">Back To Top</a>
+      </div>
     </div>
   );
 }
