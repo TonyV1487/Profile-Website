@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/Profile-Website/static/css/main.30472dd1.chunk.css",
-    "main.js": "/Profile-Website/static/js/main.b4f998a2.chunk.js",
-    "main.js.map": "/Profile-Website/static/js/main.b4f998a2.chunk.js.map",
+    "main.css": "/Profile-Website/static/css/main.8408d443.chunk.css",
+    "main.js": "/Profile-Website/static/js/main.28a5177d.chunk.js",
+    "main.js.map": "/Profile-Website/static/js/main.28a5177d.chunk.js.map",
     "runtime-main.js": "/Profile-Website/static/js/runtime-main.c6ca9cd5.js",
     "runtime-main.js.map": "/Profile-Website/static/js/runtime-main.c6ca9cd5.js.map",
-    "static/js/2.b8ecadb8.chunk.js": "/Profile-Website/static/js/2.b8ecadb8.chunk.js",
-    "static/js/2.b8ecadb8.chunk.js.map": "/Profile-Website/static/js/2.b8ecadb8.chunk.js.map",
+    "static/js/2.d06498c4.chunk.js": "/Profile-Website/static/js/2.d06498c4.chunk.js",
+    "static/js/2.d06498c4.chunk.js.map": "/Profile-Website/static/js/2.d06498c4.chunk.js.map",
     "index.html": "/Profile-Website/index.html",
-    "precache-manifest.102a4c22b290d8a6f9fc7db91b739755.js": "/Profile-Website/precache-manifest.102a4c22b290d8a6f9fc7db91b739755.js",
+    "precache-manifest.e8e8ec194d8c468ddf0ecde82d1e2547.js": "/Profile-Website/precache-manifest.e8e8ec194d8c468ddf0ecde82d1e2547.js",
     "service-worker.js": "/Profile-Website/service-worker.js",
-    "static/css/main.30472dd1.chunk.css.map": "/Profile-Website/static/css/main.30472dd1.chunk.css.map",
-    "static/js/2.b8ecadb8.chunk.js.LICENSE.txt": "/Profile-Website/static/js/2.b8ecadb8.chunk.js.LICENSE.txt",
-    "static/media/Agenda.jpg": "/Profile-Website/static/media/Agenda.bda7c33a.jpg",
+    "static/css/main.8408d443.chunk.css.map": "/Profile-Website/static/css/main.8408d443.chunk.css.map",
+    "static/js/2.d06498c4.chunk.js.LICENSE.txt": "/Profile-Website/static/js/2.d06498c4.chunk.js.LICENSE.txt",
     "static/media/Headshot2.jpg": "/Profile-Website/static/media/Headshot2.3163b349.jpg",
     "static/media/Meeting.jpg": "/Profile-Website/static/media/Meeting.ed1c163f.jpg",
-    "static/media/User.jpg": "/Profile-Website/static/media/User.c5e3ba7c.jpg",
-    "static/media/Vote.jpg": "/Profile-Website/static/media/Vote.7895588d.jpg"
+    "static/media/MongoDB.png": "/Profile-Website/static/media/MongoDB.0ac37a09.png",
+    "static/media/Mongoose.png": "/Profile-Website/static/media/Mongoose.427e8af5.png",
+    "static/media/NodeJS.png": "/Profile-Website/static/media/NodeJS.554608c9.png",
+    "static/media/React_txt.png": "/Profile-Website/static/media/React_txt.5d2e4e5b.png",
+    "static/media/SoVest.png": "/Profile-Website/static/media/SoVest.cb2bd60c.png",
+    "static/media/Tailwind.png": "/Profile-Website/static/media/Tailwind.8694dcb3.png",
+    "static/media/ajax.png": "/Profile-Website/static/media/ajax.9e26dbb8.png",
+    "static/media/cocktailcreator.jpg": "/Profile-Website/static/media/cocktailcreator.809d38b7.jpg",
+    "static/media/eslint.png": "/Profile-Website/static/media/eslint.c5ff61ca.png",
+    "static/media/expressJS.png": "/Profile-Website/static/media/expressJS.393473fd.png",
+    "static/media/jquery.png": "/Profile-Website/static/media/jquery.60ca0345.png",
+    "static/media/sequelize.png": "/Profile-Website/static/media/sequelize.458575bc.png",
+    "static/media/tinyMCE.png": "/Profile-Website/static/media/tinyMCE.764a48c8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c6ca9cd5.js",
-    "static/js/2.b8ecadb8.chunk.js",
-    "static/css/main.30472dd1.chunk.css",
-    "static/js/main.b4f998a2.chunk.js"
+    "static/js/2.d06498c4.chunk.js",
+    "static/css/main.8408d443.chunk.css",
+    "static/js/main.28a5177d.chunk.js"
   ]
 }
