@@ -65,7 +65,7 @@ function App() {
                 Login - testuser@gmail<br></br>Password - user123
               </p>
             </div>
-            <div className="tech d-flex justify-content-around py-4 border-bottom">
+            <div className="tech d-flex justify-content-around flex-wrap py-4 border-bottom">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -145,7 +145,7 @@ function App() {
           <div className="card-body">
             <div className="proj-title">SoVest</div>
             <div className="d-flex justify-content-center border-bottom py-4">
-              <img src={sovest} className="w-50"></img>
+              <img src={sovest} className="w-50" alt="SoVest"></img>
             </div>
             <div className="d-flex justify-content-center border-bottom py-4">
               <p className="proj-text text-center pt-2">
@@ -153,7 +153,7 @@ function App() {
                 stock market valuations
               </p>
             </div>
-            <div className="tech d-flex justify-content-around py-2 border-bottom py-4">
+            <div className="tech d-flex justify-content-around flex-wrap py-2 border-bottom py-4">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img
@@ -219,7 +219,11 @@ function App() {
           <div className="card-body">
             <div className="proj-title">Cocktail Creator</div>
             <div className="d-flex justify-content-center border-bottom py-4">
-              <img src={cocktailcreator} className="w-50"></img>
+              <img
+                src={cocktailcreator}
+                className="w-50"
+                alt="Cocktail Creator"
+              ></img>
             </div>
             <div className="d-flex justify-content-center border-bottom py-4">
               <p className="proj-text">
@@ -228,7 +232,7 @@ function App() {
                 available ingredients
               </p>
             </div>
-            <div className="tech d-flex justify-content-around py-2 border-bottom py-4">
+            <div className="tech d-flex justify-content-around flex-wrap py-2 border-bottom py-4">
               <img src={htmlLogo} alt="HTML" className="proj-tech-logo"></img>
               <img src={CSSLogo} alt="CSS" className="proj-tech-logo"></img>
               <img

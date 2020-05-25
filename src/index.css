@@ -25,7 +25,13 @@ a:hover {
 }
 
 .about-card {
-  width: 50rem;
+  width: 40vw;
+  margin-right: 2vw;
+}
+
+.about-img {
+  height: 40em;
+  width: auto;
 }
 
 .about-text {
@@ -50,6 +56,7 @@ a:hover {
 .headshot-background {
   background-color: #f2a365;
   height: 100%;
+  width: 50vw;
 }
 
 .navstyle {
@@ -78,4 +85,25 @@ a:hover {
   color: #30475e;
   font-weight: bold;
   font-size: 4vh;
+}
+
+@media (max-width: 800px) {
+  .about {
+    height: auto;
+  }
+
+  .about-card {
+    width: 100vw;
+  }
+
+  .about-img {
+    height: 30rem;
+    width: auto;
+  }
+
+  .headshot-background {
+    background-color: #f2a365;
+    height: 100%;
+    width: 100vw;
+  }
 }

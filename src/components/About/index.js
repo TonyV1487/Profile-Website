@@ -4,18 +4,20 @@ import Headshot from "../../assets/Headshot2.jpg";
 
 function About() {
   return (
-    <div className="row d-flex about align-items-center" id="about">
-      <div className="col-5 headshot-background d-flex justify-content-center align-items-center">
+    <div
+      className="row d-flex flex-wrap about align-items-center justify-content-between"
+      id="about"
+    >
+      <div className="headshot-background d-flex justify-content-center align-items-center">
         <div>
           <img
-            className="align-middle rounded img-fluid"
+            className="align-middle rounded img-fluid about-img"
             src={Headshot}
             alt="Headshot"
-            width="400px"
           ></img>
         </div>
       </div>
-      <div className="col-7 d-flex justify-content-center align-items-center">
+      <div className="d-flex justify-content-center align-items-center">
         <div className="card about-card shadow">
           <div className="card-body">
             <h2>Anthony Vester</h2>
